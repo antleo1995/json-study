@@ -50,7 +50,32 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+{"kitchen": {
+  "cupboard": [
+     "cups",
+     "bowls",
+  ],
+  "electric stove":{
+    "heating element": [
+       {"size": "small"},
+       {"size": "medium"},
+       {"size": "large"},
+       {"size": "extra large"},
+    ]
+    },
+  "spice rack":{
+    "bottom rack": [
+     "chives",
+     "lemon grass",
+     "mint",
+    ],
+    "top rack": [
+     "cinnamon",
+     "nutmeg",
+     "vanilla"
+    ]
+  },
+}}
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,7 +87,38 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+{"kitchen": {
+  "cupboard": [
+     "cups",
+     "bowls",
+  ],
+  "electric stove":{
+    "heating element": [
+       {"size": "small"},
+       {"size": "medium"},
+       {"size": "large"},
+       {"size": "extra large"},
+    ]
+    },
+  "spice rack":{
+    "bottom rack": [
+     "chives",
+     "lemon grass",
+     "mint",
+    ],
+    "top rack": [
+     "cinnamon",
+     "nutmeg",
+     "vanilla"
+    ]
+  },
+  "fruit basket":
+  [
+    {"type": "Fuji Apple" , "amount": "2"},
+    {"type": "Gala Apple" , "amount": "7"},
+    {"type": "Golden Delicious Apple" , "amount": "1"},
+  ]
+}}
 ```
 
 ## JSON Methods
@@ -70,7 +126,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No you cannot
 ```
 
 ## JSON Comments
@@ -78,5 +134,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+No you cannot
 ```
